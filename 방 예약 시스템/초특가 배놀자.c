@@ -3,8 +3,7 @@
 
 int main()
 {
-	int c; //방 청소하려면 1을 입력 type 1 to clean the room
-	int a,x,y; //a=1 체크인, a=0 체크아웃  a=1 checkin, a=0 checkout
+	int a,x,y; //a=1 체크인, a=0 체크아웃, a=2 방청소 a=1 checkin, a=0 checkout, a=2 clean the room
 	int i,j,k,cnt=0; //cnt=남은 방의 평수  cnt=size of available rooms
 	int room[31];//30평짜리 방 the size of the rooms is 30
 	int data[31];//어느 방이 차 있는지 구분하려고 what rooms are fulled
